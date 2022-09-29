@@ -1,0 +1,22 @@
+uuid: b1ac1523-705e-4a6d-bc42-ac19ffb45a1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qrtheme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: qrtheme_breadcrumbs
+theme: qrtheme
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

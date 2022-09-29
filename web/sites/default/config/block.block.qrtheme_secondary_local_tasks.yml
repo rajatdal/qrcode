@@ -1,0 +1,22 @@
+uuid: eca25b2f-fbb2-4a7b-a99f-e84f5263a5f1
+langcode: en
+status: true
+dependencies:
+  theme:
+    - qrtheme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: qrtheme_secondary_local_tasks
+theme: qrtheme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
