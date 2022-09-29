@@ -1,0 +1,24 @@
+uuid: 98947abd-ee58-48a3-9cef-ec13450681d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_qr_code
+    - node.type.product
+  module:
+    - qrmanager
+id: node.product.field_qr_code
+field_name: field_qr_code
+entity_type: node
+bundle: product
+label: 'QR Code'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    text: '[node:url]'
+default_value_callback: ''
+settings:
+  qrcode_plugin: gchart
+field_type: qrmanager

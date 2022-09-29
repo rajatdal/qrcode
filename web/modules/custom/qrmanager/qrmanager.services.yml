@@ -1,0 +1,13 @@
+services:
+  qrmanager.qrimage:
+    class: Drupal\qrmanager\Service\QRImage
+    arguments:
+      - '@plugin.manager.qrmanager'
+      - '@token'
+  plugin.manager.qrmanager:
+    class: Drupal\qrmanager\QRUrlServicePluginManager
+    parent: default_plugin_manager
+    arguments:
+      - '@container.namespaces'
+      - '@cache.discovery'
+      - '@module_handler'

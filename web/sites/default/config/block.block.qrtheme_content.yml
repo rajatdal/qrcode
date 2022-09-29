@@ -1,0 +1,22 @@
+uuid: 0bc7b530-6ed2-4e70-a9e0-0a8e02837b39
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qrtheme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: qrtheme_content
+theme: qrtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

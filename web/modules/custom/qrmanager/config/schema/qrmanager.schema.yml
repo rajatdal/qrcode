@@ -1,0 +1,35 @@
+field.field_settings.qrmanager:
+  type: mapping
+  label: 'Settings qrmanager'
+  mapping:
+    qrcode_plugin:
+      type: string
+      label: 'QR code plugin'
+field.widget.settings.qrmanager_widget:
+  type: mapping
+  label: 'Widget qrmanager'
+  mapping:
+    text:
+      type: string
+      label: 'QR code text'
+    image:
+      width:
+        type: number
+        label: 'Image width'
+      height:
+        type: number
+        label: 'Image height'
+field.formatter.settings.qrmanager_formatter:
+  type: mapping
+  label: 'Formatter qrmanager'
+  mapping:
+    display_text:
+      type: boolean
+      label: 'Display text'
+    image:
+      width:
+        type: number
+        label: 'Image width'
+      height:
+        type: number
+        label: 'Image height'

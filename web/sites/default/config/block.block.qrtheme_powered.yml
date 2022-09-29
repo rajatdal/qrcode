@@ -1,0 +1,22 @@
+uuid: 0aa47a4b-ec01-4b8a-af62-fc4545446bad
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - qrtheme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: qrtheme_powered
+theme: qrtheme
+region: navigation
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

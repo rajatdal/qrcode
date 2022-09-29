@@ -1,0 +1,22 @@
+uuid: a232b2be-d7a2-414a-983c-c32941694ae8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - qrtheme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: qrtheme_help
+theme: qrtheme
+region: navigation
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
